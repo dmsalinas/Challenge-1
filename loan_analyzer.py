@@ -133,8 +133,6 @@ def calculate_present_value(future_value, remaining_months, annual_discount_rate
 # YOUR CODE HERE!
 annual_discount_rate = 0.20
 discounted_present_value = present_value - annual_discount_rate
-#present_value = calculate_present_value(new_loan.get("future_value"), new_loan.get("remaining_months"), 0.2)
-
 print(f"The present value of the loan is: {discounted_present_value}")
 
 
